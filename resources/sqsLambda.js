@@ -12,7 +12,7 @@ exports.mainV2 = async function(event, context) {
     return {
       statusCode: 400,
         headers: {},
-        body: JSON.stringify("FreightWise")
+        body: JSON.stringify("Test")
     }
   }
 }
