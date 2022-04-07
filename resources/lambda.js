@@ -6,14 +6,14 @@ const bucketName = process.env.BUCKET;
 
 exports.main = async function(event, context) {
   try {
-      console.log("Entering Lambda FreightWise!")    ;
+      console.log("Entering Lambda!")    ;
       const data = await S3.listObjectsV2({ Bucket: bucketName }).promise();
       console.log(data)
   } catch(error) {
     return {
       statusCode: 400,
         headers: {},
-        body: JSON.stringify("FreightWise")
+        body: JSON.stringify("Test")
     }
   }
 }
