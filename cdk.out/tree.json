@@ -1,0 +1,1523 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree",
+        "constructInfo": {
+          "fqn": "@aws-cdk/core.Construct",
+          "version": "1.137.0"
+        }
+      },
+      "ServerlessCdkStack": {
+        "id": "ServerlessCdkStack",
+        "path": "ServerlessCdkStack",
+        "children": {
+          "serverlessConstruct": {
+            "id": "serverlessConstruct",
+            "path": "ServerlessCdkStack/serverlessConstruct",
+            "children": {
+              "Store": {
+                "id": "Store",
+                "path": "ServerlessCdkStack/serverlessConstruct/Store",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/Store/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::S3::Bucket",
+                      "aws:cdk:cloudformation:props": {}
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-s3.CfnBucket",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-s3.Bucket",
+                  "version": "1.149.0"
+                }
+              },
+              "vpcdev": {
+                "id": "vpcdev",
+                "path": "ServerlessCdkStack/serverlessConstruct/vpcdev",
+                "children": {
+                  "PrivateSubnet1": {
+                    "id": "PrivateSubnet1",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/PrivateSubnet1",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet2": {
+                    "id": "undefinedSubnet2",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet2",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet3": {
+                    "id": "undefinedSubnet3",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet3",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet4": {
+                    "id": "undefinedSubnet4",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet4",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet5": {
+                    "id": "undefinedSubnet5",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet5",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet6": {
+                    "id": "undefinedSubnet6",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet6",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet7": {
+                    "id": "undefinedSubnet7",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet7",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet8": {
+                    "id": "undefinedSubnet8",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet8",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet9": {
+                    "id": "undefinedSubnet9",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet9",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet10": {
+                    "id": "undefinedSubnet10",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet10",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet11": {
+                    "id": "undefinedSubnet11",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet11",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet12": {
+                    "id": "undefinedSubnet12",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet12",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet13": {
+                    "id": "undefinedSubnet13",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet13",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet14": {
+                    "id": "undefinedSubnet14",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet14",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "undefinedSubnet15": {
+                    "id": "undefinedSubnet15",
+                    "path": "ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet15",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.Resource",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.Resource",
+                  "version": "1.149.0"
+                }
+              },
+              "securitygroup": {
+                "id": "securitygroup",
+                "path": "ServerlessCdkStack/serverlessConstruct/securitygroup",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.Resource",
+                  "version": "1.149.0"
+                }
+              },
+              "Shared": {
+                "id": "Shared",
+                "path": "ServerlessCdkStack/serverlessConstruct/Shared",
+                "children": {
+                  "Code": {
+                    "id": "Code",
+                    "path": "ServerlessCdkStack/serverlessConstruct/Shared/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "ServerlessCdkStack/serverlessConstruct/Shared/Code/Stage",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/core.AssetStaging",
+                          "version": "1.149.0"
+                        }
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "ServerlessCdkStack/serverlessConstruct/Shared/Code/AssetBucket",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-s3.BucketBase",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-s3-assets.Asset",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/Shared/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
+                      "aws:cdk:cloudformation:props": {
+                        "content": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3BucketD477F252"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3VersionKey9EE22730"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3VersionKey9EE22730"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "compatibleRuntimes": [
+                          "nodejs12.x"
+                        ],
+                        "description": "A layer to test the L2 construct"
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-lambda.CfnLayerVersion",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-lambda.LayerVersion",
+                  "version": "1.149.0"
+                }
+              },
+              "Handler": {
+                "id": "Handler",
+                "path": "ServerlessCdkStack/serverlessConstruct/Handler",
+                "children": {
+                  "ServiceRole": {
+                    "id": "ServiceRole",
+                    "path": "ServerlessCdkStack/serverlessConstruct/Handler/ServiceRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/Handler/ServiceRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "lambda.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-iam.CfnRole",
+                          "version": "1.149.0"
+                        }
+                      },
+                      "DefaultPolicy": {
+                        "id": "DefaultPolicy",
+                        "path": "ServerlessCdkStack/serverlessConstruct/Handler/ServiceRole/DefaultPolicy",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ServerlessCdkStack/serverlessConstruct/Handler/ServiceRole/DefaultPolicy/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                              "aws:cdk:cloudformation:props": {
+                                "policyDocument": {
+                                  "Statement": [
+                                    {
+                                      "Action": [
+                                        "s3:GetObject*",
+                                        "s3:GetBucket*",
+                                        "s3:List*",
+                                        "s3:DeleteObject*",
+                                        "s3:PutObject",
+                                        "s3:PutObjectLegalHold",
+                                        "s3:PutObjectRetention",
+                                        "s3:PutObjectTagging",
+                                        "s3:PutObjectVersionTagging",
+                                        "s3:Abort*"
+                                      ],
+                                      "Effect": "Allow",
+                                      "Resource": [
+                                        {
+                                          "Fn::GetAtt": [
+                                            "serverlessConstructStore95808F86",
+                                            "Arn"
+                                          ]
+                                        },
+                                        {
+                                          "Fn::Join": [
+                                            "",
+                                            [
+                                              {
+                                                "Fn::GetAtt": [
+                                                  "serverlessConstructStore95808F86",
+                                                  "Arn"
+                                                ]
+                                              },
+                                              "/*"
+                                            ]
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "Version": "2012-10-17"
+                                },
+                                "policyName": "serverlessConstructHandlerServiceRoleDefaultPolicyD00F7B2F",
+                                "roles": [
+                                  {
+                                    "Ref": "serverlessConstructHandlerServiceRole8A3845DF"
+                                  }
+                                ]
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "@aws-cdk/aws-iam.CfnPolicy",
+                              "version": "1.149.0"
+                            }
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-iam.Policy",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-iam.Role",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Code": {
+                    "id": "Code",
+                    "path": "ServerlessCdkStack/serverlessConstruct/Handler/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "ServerlessCdkStack/serverlessConstruct/Handler/Code/Stage",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/core.AssetStaging",
+                          "version": "1.149.0"
+                        }
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "ServerlessCdkStack/serverlessConstruct/Handler/Code/AssetBucket",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-s3.BucketBase",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-s3-assets.Asset",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/Handler/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                      "aws:cdk:cloudformation:props": {
+                        "code": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3Bucket2B420F76"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "role": {
+                          "Fn::GetAtt": [
+                            "serverlessConstructHandlerServiceRole8A3845DF",
+                            "Arn"
+                          ]
+                        },
+                        "environment": {
+                          "variables": {
+                            "BUCKET": {
+                              "Ref": "serverlessConstructStore95808F86"
+                            },
+                            "PGHOST": {
+                              "Ref": "SsmParameterValuefwmannyPGHOSTC96584B6F00A464EAD1953AFF4B05118Parameter"
+                            },
+                            "PGPASSWORD": {
+                              "Ref": "SsmParameterValuefwmannyPGPASSWORDC96584B6F00A464EAD1953AFF4B05118Parameter"
+                            }
+                          }
+                        },
+                        "handler": "lambda.main",
+                        "layers": [
+                          {
+                            "Ref": "serverlessConstructSharedC5AFCF2D"
+                          }
+                        ],
+                        "runtime": "nodejs12.x"
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-lambda.CfnFunction",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-lambda.Function",
+                  "version": "1.149.0"
+                }
+              },
+              "SQSHandler": {
+                "id": "SQSHandler",
+                "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler",
+                "children": {
+                  "ServiceRole": {
+                    "id": "ServiceRole",
+                    "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/ServiceRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/ServiceRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "lambda.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-iam.CfnRole",
+                          "version": "1.149.0"
+                        }
+                      },
+                      "DefaultPolicy": {
+                        "id": "DefaultPolicy",
+                        "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/ServiceRole/DefaultPolicy",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/ServiceRole/DefaultPolicy/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                              "aws:cdk:cloudformation:props": {
+                                "policyDocument": {
+                                  "Statement": [
+                                    {
+                                      "Action": [
+                                        "sqs:ReceiveMessage",
+                                        "sqs:ChangeMessageVisibility",
+                                        "sqs:GetQueueUrl",
+                                        "sqs:DeleteMessage",
+                                        "sqs:GetQueueAttributes"
+                                      ],
+                                      "Effect": "Allow",
+                                      "Resource": {
+                                        "Fn::GetAtt": [
+                                          "serverlessConstructsqsqueuefreightwiseE92E6D23",
+                                          "Arn"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "Action": [
+                                        "s3:GetObject*",
+                                        "s3:GetBucket*",
+                                        "s3:List*",
+                                        "s3:DeleteObject*",
+                                        "s3:PutObject",
+                                        "s3:PutObjectLegalHold",
+                                        "s3:PutObjectRetention",
+                                        "s3:PutObjectTagging",
+                                        "s3:PutObjectVersionTagging",
+                                        "s3:Abort*"
+                                      ],
+                                      "Effect": "Allow",
+                                      "Resource": [
+                                        {
+                                          "Fn::GetAtt": [
+                                            "serverlessConstructStore95808F86",
+                                            "Arn"
+                                          ]
+                                        },
+                                        {
+                                          "Fn::Join": [
+                                            "",
+                                            [
+                                              {
+                                                "Fn::GetAtt": [
+                                                  "serverlessConstructStore95808F86",
+                                                  "Arn"
+                                                ]
+                                              },
+                                              "/*"
+                                            ]
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "Version": "2012-10-17"
+                                },
+                                "policyName": "serverlessConstructSQSHandlerServiceRoleDefaultPolicy20E4CE2A",
+                                "roles": [
+                                  {
+                                    "Ref": "serverlessConstructSQSHandlerServiceRole0955FDC9"
+                                  }
+                                ]
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "@aws-cdk/aws-iam.CfnPolicy",
+                              "version": "1.149.0"
+                            }
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-iam.Policy",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-iam.Role",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Code": {
+                    "id": "Code",
+                    "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/Code/Stage",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/core.AssetStaging",
+                          "version": "1.149.0"
+                        }
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/Code/AssetBucket",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-s3.BucketBase",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-s3-assets.Asset",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                      "aws:cdk:cloudformation:props": {
+                        "code": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3Bucket2B420F76"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "role": {
+                          "Fn::GetAtt": [
+                            "serverlessConstructSQSHandlerServiceRole0955FDC9",
+                            "Arn"
+                          ]
+                        },
+                        "environment": {
+                          "variables": {
+                            "BUCKET": {
+                              "Ref": "serverlessConstructStore95808F86"
+                            },
+                            "PGHOST": {
+                              "Ref": "SsmParameterValuefwmannyPGHOSTC96584B6F00A464EAD1953AFF4B05118Parameter"
+                            },
+                            "PGPASSWORD": {
+                              "Ref": "SsmParameterValuefwmannyPGPASSWORDC96584B6F00A464EAD1953AFF4B05118Parameter"
+                            }
+                          }
+                        },
+                        "handler": "sqsLambda.mainV2",
+                        "runtime": "nodejs12.x"
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-lambda.CfnFunction",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "SqsEventSource:ServerlessCdkStackserverlessConstructsqsqueuefreightwise58C2AEBE": {
+                    "id": "SqsEventSource:ServerlessCdkStackserverlessConstructsqsqueuefreightwise58C2AEBE",
+                    "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/SqsEventSource:ServerlessCdkStackserverlessConstructsqsqueuefreightwise58C2AEBE",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/SQSHandler/SqsEventSource:ServerlessCdkStackserverlessConstructsqsqueuefreightwise58C2AEBE/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::Lambda::EventSourceMapping",
+                          "aws:cdk:cloudformation:props": {
+                            "functionName": {
+                              "Ref": "serverlessConstructSQSHandlerA9BB1929"
+                            },
+                            "eventSourceArn": {
+                              "Fn::GetAtt": [
+                                "serverlessConstructsqsqueuefreightwiseE92E6D23",
+                                "Arn"
+                              ]
+                            }
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-lambda.CfnEventSourceMapping",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-lambda.EventSourceMapping",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-lambda.Function",
+                  "version": "1.149.0"
+                }
+              },
+              "APIHandler": {
+                "id": "APIHandler",
+                "path": "ServerlessCdkStack/serverlessConstruct/APIHandler",
+                "children": {
+                  "ServiceRole": {
+                    "id": "ServiceRole",
+                    "path": "ServerlessCdkStack/serverlessConstruct/APIHandler/ServiceRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/APIHandler/ServiceRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "lambda.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-iam.CfnRole",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-iam.Role",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Code": {
+                    "id": "Code",
+                    "path": "ServerlessCdkStack/serverlessConstruct/APIHandler/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "ServerlessCdkStack/serverlessConstruct/APIHandler/Code/Stage",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/core.AssetStaging",
+                          "version": "1.149.0"
+                        }
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "ServerlessCdkStack/serverlessConstruct/APIHandler/Code/AssetBucket",
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-s3.BucketBase",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-s3-assets.Asset",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/APIHandler/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                      "aws:cdk:cloudformation:props": {
+                        "code": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3Bucket2B420F76"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "role": {
+                          "Fn::GetAtt": [
+                            "serverlessConstructAPIHandlerServiceRoleAF8F434E",
+                            "Arn"
+                          ]
+                        },
+                        "environment": {
+                          "variables": {
+                            "BUCKET": {
+                              "Ref": "serverlessConstructStore95808F86"
+                            },
+                            "PGHOST": {
+                              "Ref": "SsmParameterValuefwmannyPGHOSTC96584B6F00A464EAD1953AFF4B05118Parameter"
+                            },
+                            "PGPASSWORD": {
+                              "Ref": "SsmParameterValuefwmannyPGPASSWORDC96584B6F00A464EAD1953AFF4B05118Parameter"
+                            }
+                          }
+                        },
+                        "handler": "apiLambda.mainV3",
+                        "runtime": "nodejs12.x"
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-lambda.CfnFunction",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-lambda.Function",
+                  "version": "1.149.0"
+                }
+              },
+              "helloLambdaApi": {
+                "id": "helloLambdaApi",
+                "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::ApiGateway::RestApi",
+                      "aws:cdk:cloudformation:props": {
+                        "name": "HelloService"
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-apigateway.CfnRestApi",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "CloudWatchRole": {
+                    "id": "CloudWatchRole",
+                    "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/CloudWatchRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/CloudWatchRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "apigateway.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-iam.CfnRole",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-iam.Role",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Account": {
+                    "id": "Account",
+                    "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Account",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::ApiGateway::Account",
+                      "aws:cdk:cloudformation:props": {
+                        "cloudWatchRoleArn": {
+                          "Fn::GetAtt": [
+                            "serverlessConstructhelloLambdaApiCloudWatchRoleC83CD271",
+                            "Arn"
+                          ]
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-apigateway.CfnAccount",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Default": {
+                    "id": "Default",
+                    "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default",
+                    "children": {
+                      "hello": {
+                        "id": "hello",
+                        "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::ApiGateway::Resource",
+                              "aws:cdk:cloudformation:props": {
+                                "parentId": {
+                                  "Fn::GetAtt": [
+                                    "serverlessConstructhelloLambdaApiA85205BA",
+                                    "RootResourceId"
+                                  ]
+                                },
+                                "pathPart": "hello",
+                                "restApiId": {
+                                  "Ref": "serverlessConstructhelloLambdaApiA85205BA"
+                                }
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "@aws-cdk/aws-apigateway.CfnResource",
+                              "version": "1.149.0"
+                            }
+                          },
+                          "GET": {
+                            "id": "GET",
+                            "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET",
+                            "children": {
+                              "ApiPermission.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello": {
+                                "id": "ApiPermission.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello",
+                                "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET/ApiPermission.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello",
+                                "attributes": {
+                                  "aws:cdk:cloudformation:type": "AWS::Lambda::Permission",
+                                  "aws:cdk:cloudformation:props": {
+                                    "action": "lambda:InvokeFunction",
+                                    "functionName": {
+                                      "Fn::GetAtt": [
+                                        "serverlessConstructAPIHandler3326F545",
+                                        "Arn"
+                                      ]
+                                    },
+                                    "principal": "apigateway.amazonaws.com",
+                                    "sourceArn": {
+                                      "Fn::Join": [
+                                        "",
+                                        [
+                                          "arn:",
+                                          {
+                                            "Ref": "AWS::Partition"
+                                          },
+                                          ":execute-api:",
+                                          {
+                                            "Ref": "AWS::Region"
+                                          },
+                                          ":",
+                                          {
+                                            "Ref": "AWS::AccountId"
+                                          },
+                                          ":",
+                                          {
+                                            "Ref": "serverlessConstructhelloLambdaApiA85205BA"
+                                          },
+                                          "/*/GET/hello"
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "@aws-cdk/aws-lambda.CfnPermission",
+                                  "version": "1.149.0"
+                                }
+                              },
+                              "ApiPermission.Test.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello": {
+                                "id": "ApiPermission.Test.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello",
+                                "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET/ApiPermission.Test.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello",
+                                "attributes": {
+                                  "aws:cdk:cloudformation:type": "AWS::Lambda::Permission",
+                                  "aws:cdk:cloudformation:props": {
+                                    "action": "lambda:InvokeFunction",
+                                    "functionName": {
+                                      "Fn::GetAtt": [
+                                        "serverlessConstructAPIHandler3326F545",
+                                        "Arn"
+                                      ]
+                                    },
+                                    "principal": "apigateway.amazonaws.com",
+                                    "sourceArn": {
+                                      "Fn::Join": [
+                                        "",
+                                        [
+                                          "arn:",
+                                          {
+                                            "Ref": "AWS::Partition"
+                                          },
+                                          ":execute-api:",
+                                          {
+                                            "Ref": "AWS::Region"
+                                          },
+                                          ":",
+                                          {
+                                            "Ref": "AWS::AccountId"
+                                          },
+                                          ":",
+                                          {
+                                            "Ref": "serverlessConstructhelloLambdaApiA85205BA"
+                                          },
+                                          "/test-invoke-stage/GET/hello"
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "@aws-cdk/aws-lambda.CfnPermission",
+                                  "version": "1.149.0"
+                                }
+                              },
+                              "Resource": {
+                                "id": "Resource",
+                                "path": "ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET/Resource",
+                                "attributes": {
+                                  "aws:cdk:cloudformation:type": "AWS::ApiGateway::Method",
+                                  "aws:cdk:cloudformation:props": {
+                                    "httpMethod": "GET",
+                                    "resourceId": {
+                                      "Ref": "serverlessConstructhelloLambdaApihello0B6B69C3"
+                                    },
+                                    "restApiId": {
+                                      "Ref": "serverlessConstructhelloLambdaApiA85205BA"
+                                    },
+                                    "authorizationType": "NONE",
+                                    "integration": {
+                                      "type": "AWS_PROXY",
+                                      "uri": {
+                                        "Fn::Join": [
+                                          "",
+                                          [
+                                            "arn:",
+                                            {
+                                              "Ref": "AWS::Partition"
+                                            },
+                                            ":apigateway:",
+                                            {
+                                              "Ref": "AWS::Region"
+                                            },
+                                            ":lambda:path/2015-03-31/functions/",
+                                            {
+                                              "Fn::GetAtt": [
+                                                "serverlessConstructAPIHandler3326F545",
+                                                "Arn"
+                                              ]
+                                            },
+                                            "/invocations"
+                                          ]
+                                        ]
+                                      },
+                                      "integrationHttpMethod": "POST"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "@aws-cdk/aws-apigateway.CfnMethod",
+                                  "version": "1.149.0"
+                                }
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "@aws-cdk/aws-apigateway.Method",
+                              "version": "1.149.0"
+                            }
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-apigateway.Resource",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-apigateway.ResourceBase",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-apigateway.RestApi",
+                  "version": "1.149.0"
+                }
+              },
+              "sqs-queue-freightwise": {
+                "id": "sqs-queue-freightwise",
+                "path": "ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::SQS::Queue",
+                      "aws:cdk:cloudformation:props": {}
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-sqs.CfnQueue",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "Policy": {
+                    "id": "Policy",
+                    "path": "ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/Policy",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/Policy/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::SQS::QueuePolicy",
+                          "aws:cdk:cloudformation:props": {
+                            "policyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sqs:SendMessage",
+                                  "Condition": {
+                                    "ArnEquals": {
+                                      "aws:SourceArn": {
+                                        "Ref": "serverlessConstructsnstopicfreightwise2603419C"
+                                      }
+                                    }
+                                  },
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "sns.amazonaws.com"
+                                  },
+                                  "Resource": {
+                                    "Fn::GetAtt": [
+                                      "serverlessConstructsqsqueuefreightwiseE92E6D23",
+                                      "Arn"
+                                    ]
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "queues": [
+                              {
+                                "Ref": "serverlessConstructsqsqueuefreightwiseE92E6D23"
+                              }
+                            ]
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-sqs.CfnQueuePolicy",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-sqs.QueuePolicy",
+                      "version": "1.149.0"
+                    }
+                  },
+                  "ServerlessCdkStackserverlessConstructsnstopicfreightwise50FD9EAD": {
+                    "id": "ServerlessCdkStackserverlessConstructsnstopicfreightwise50FD9EAD",
+                    "path": "ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/ServerlessCdkStackserverlessConstructsnstopicfreightwise50FD9EAD",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/ServerlessCdkStackserverlessConstructsnstopicfreightwise50FD9EAD/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::SNS::Subscription",
+                          "aws:cdk:cloudformation:props": {
+                            "protocol": "sqs",
+                            "topicArn": {
+                              "Ref": "serverlessConstructsnstopicfreightwise2603419C"
+                            },
+                            "endpoint": {
+                              "Fn::GetAtt": [
+                                "serverlessConstructsqsqueuefreightwiseE92E6D23",
+                                "Arn"
+                              ]
+                            }
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-sns.CfnSubscription",
+                          "version": "1.149.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-sns.Subscription",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-sqs.Queue",
+                  "version": "1.149.0"
+                }
+              },
+              "sns-topic-freightwise": {
+                "id": "sns-topic-freightwise",
+                "path": "ServerlessCdkStack/serverlessConstruct/sns-topic-freightwise",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ServerlessCdkStack/serverlessConstruct/sns-topic-freightwise/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::SNS::Topic",
+                      "aws:cdk:cloudformation:props": {}
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-sns.CfnTopic",
+                      "version": "1.149.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-sns.Topic",
+                  "version": "1.149.0"
+                }
+              },
+              "snsTopicArn": {
+                "id": "snsTopicArn",
+                "path": "ServerlessCdkStack/serverlessConstruct/snsTopicArn",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.CfnOutput",
+                  "version": "1.137.0"
+                }
+              },
+              "BotURL": {
+                "id": "BotURL",
+                "path": "ServerlessCdkStack/serverlessConstruct/BotURL",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.CfnOutput",
+                  "version": "1.137.0"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Construct",
+              "version": "1.137.0"
+            }
+          },
+          "SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": {
+            "id": "SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
+            "path": "ServerlessCdkStack/SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.CfnParameter",
+              "version": "1.149.0"
+            }
+          },
+          "SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118": {
+            "id": "SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118",
+            "path": "ServerlessCdkStack/SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118",
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Resource",
+              "version": "1.149.0"
+            }
+          },
+          "SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": {
+            "id": "SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
+            "path": "ServerlessCdkStack/SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.CfnParameter",
+              "version": "1.149.0"
+            }
+          },
+          "SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118": {
+            "id": "SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118",
+            "path": "ServerlessCdkStack/SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118",
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Resource",
+              "version": "1.149.0"
+            }
+          },
+          "AssetParameters": {
+            "id": "AssetParameters",
+            "path": "ServerlessCdkStack/AssetParameters",
+            "children": {
+              "9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6": {
+                "id": "9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6",
+                "path": "ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6/S3Bucket",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.CfnParameter",
+                      "version": "1.137.0"
+                    }
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6/S3VersionKey",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.CfnParameter",
+                      "version": "1.137.0"
+                    }
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6/ArtifactHash",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.CfnParameter",
+                      "version": "1.137.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.Construct",
+                  "version": "1.137.0"
+                }
+              },
+              "8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c": {
+                "id": "8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c",
+                "path": "ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c/S3Bucket",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.CfnParameter",
+                      "version": "1.137.0"
+                    }
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c/S3VersionKey",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.CfnParameter",
+                      "version": "1.137.0"
+                    }
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c/ArtifactHash",
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/core.CfnParameter",
+                      "version": "1.137.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.Construct",
+                  "version": "1.137.0"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Construct",
+              "version": "1.137.0"
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "ServerlessCdkStack/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "ServerlessCdkStack/CDKMetadata/Default",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.CfnResource",
+                  "version": "1.137.0"
+                }
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "ServerlessCdkStack/CDKMetadata/Condition",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.CfnCondition",
+                  "version": "1.137.0"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Construct",
+              "version": "1.137.0"
+            }
+          }
+        },
+        "constructInfo": {
+          "fqn": "@aws-cdk/core.Stack",
+          "version": "1.137.0"
+        }
+      }
+    },
+    "constructInfo": {
+      "fqn": "@aws-cdk/core.App",
+      "version": "1.137.0"
+    }
+  }
+}

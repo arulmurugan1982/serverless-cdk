@@ -1,0 +1,25 @@
+{
+  "name": "serverless-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "serverless-cdk": "bin/serverless-cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.108.1",
+    "aws-cdk": "2.17.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.110.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.149.0",
+    "@aws-cdk/aws-route53": "^1.149.0",
+    "@aws-cdk/aws-s3": "^1.110.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.149.0",
+    "@aws-cdk/core": "1.137"
+  }
+}

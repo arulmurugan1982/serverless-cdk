@@ -1,0 +1,1157 @@
+{
+  "version": "15.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "ServerlessCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "ServerlessCdkStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/ServerlessCdkStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6",
+              "id": "9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6",
+              "packaging": "zip",
+              "sourceHash": "9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6",
+              "s3BucketParameter": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3BucketD477F252",
+              "s3KeyParameter": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3VersionKey9EE22730",
+              "artifactHashParameter": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6ArtifactHash01312C83"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:180:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new LayerVersion (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/layers.js:43:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:65:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c",
+              "id": "8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c",
+              "packaging": "zip",
+              "sourceHash": "8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c",
+              "s3BucketParameter": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3Bucket2B420F76",
+              "s3KeyParameter": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92",
+              "artifactHashParameter": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cArtifactHash30967C59"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:180:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:72:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/Store/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructStore95808F86",
+            "trace": [
+              "new Bucket (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.js:587:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:21:24)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/PrivateSubnet1": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 's'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet2": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'u'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet3": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'b'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet4": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'n'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet5": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'e'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet6": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 't'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet7": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet '-'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet8": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet '2'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet9": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet '8'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet10": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'f'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet11": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'b'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet12": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet '7'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet13": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet '3'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet14": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet '4'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/vpcdev/undefinedSubnet15": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "No routeTableId was provided to the subnet 'e'. Attempting to read its .routeTable.routeTableId will return null/undefined. (More info: https://github.com/aws/aws-cdk/pull/3171)",
+            "trace": [
+              "Annotations.addMessage (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:86:42)",
+              "Annotations.addWarning (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/core/lib/annotations.js:32:14)",
+              "new ImportedSubnet (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:1078:41)",
+              "Function.fromSubnetAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:763:16)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:61:33",
+              "Array.map (<anonymous>)",
+              "ImportSubnetGroup.import (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/util.js:59:45)",
+              "new ImportedVpc (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:962:42)",
+              "Function.fromVpcAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:493:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:49:29)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/Shared/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructSharedC5AFCF2D",
+            "trace": [
+              "new LayerVersion (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/layers.js:50:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:65:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/Handler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructHandlerServiceRole8A3845DF",
+            "trace": [
+              "new Role (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/role.js:50:22)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:82:35)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:72:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/Handler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructHandlerServiceRoleDefaultPolicyD00F7B2F",
+            "trace": [
+              "new Policy (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/policy.js:50:26)",
+              "Role.addToPrincipalPolicy (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/role.js:199:34)",
+              "Function.addToPrincipal (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/grant.js:87:65)",
+              "Function.addToPrincipalOrResource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/grant.js:43:30)",
+              "Bucket.grant (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.js:423:31)",
+              "Bucket.grantReadWrite (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.js:298:21)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:132:16)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/Handler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructHandler35DCA250",
+            "trace": [
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:154:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:72:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/SQSHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructSQSHandlerServiceRole0955FDC9",
+            "trace": [
+              "new Role (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/role.js:50:22)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:82:35)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:81:27)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/SQSHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructSQSHandlerServiceRoleDefaultPolicy20E4CE2A",
+            "trace": [
+              "new Policy (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/policy.js:50:26)",
+              "Role.addToPrincipalPolicy (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/role.js:199:34)",
+              "Function.addToPrincipal (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/grant.js:87:65)",
+              "Function.addToPrincipalOrResource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/grant.js:43:30)",
+              "Queue.grant (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sqs/lib/queue-base.js:97:26)",
+              "Queue.grantConsumeMessages (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sqs/lib/queue-base.js:50:26)",
+              "SqsEventSource.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda-event-sources/lib/sqs.js:43:20)",
+              "Function.addEventSource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:130:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:129:19)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/SQSHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructSQSHandlerA9BB1929",
+            "trace": [
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:154:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:81:27)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/SQSHandler/SqsEventSource:ServerlessCdkStackserverlessConstructsqsqueuefreightwise58C2AEBE/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructSQSHandlerSqsEventSourceServerlessCdkStackserverlessConstructsqsqueuefreightwise58C2AEBEE446CD75",
+            "trace": [
+              "new EventSourceMapping (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/event-source-mapping.js:105:39)",
+              "Function.addEventSourceMapping (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:84:16)",
+              "SqsEventSource.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda-event-sources/lib/sqs.js:35:43)",
+              "Function.addEventSource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:130:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:129:19)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/APIHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructAPIHandlerServiceRoleAF8F434E",
+            "trace": [
+              "new Role (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/role.js:50:22)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:82:35)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:88:27)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/APIHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructAPIHandler3326F545",
+            "trace": [
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:154:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:88:27)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApiA85205BA",
+            "trace": [
+              "new RestApi (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:376:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:97:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApiCloudWatchRoleC83CD271",
+            "trace": [
+              "new Role (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-iam/lib/role.js:50:22)",
+              "RestApi._configureCloudWatchRole (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:228:22)",
+              "new RestApi (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:393:18)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:97:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApiAccount05D9D849",
+            "trace": [
+              "RestApi._configureCloudWatchRole (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:232:34)",
+              "new RestApi (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:393:18)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:97:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApihello0B6B69C3",
+            "trace": [
+              "new Resource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:187:26)",
+              "RootResource.addResource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:19:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:103:14)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET/ApiPermission.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApihelloGETApiPermissionServerlessCdkStackserverlessConstructhelloLambdaApi9278D75AGEThelloD5BFF827",
+            "trace": [
+              "Function.addPermission (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:38:9)",
+              "LambdaIntegration.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:40:22)",
+              "new Method (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/method.js:37:40)",
+              "Resource.addMethod (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:24:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:104:14)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET/ApiPermission.Test.ServerlessCdkStackserverlessConstructhelloLambdaApi9278D75A.GET..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApihelloGETApiPermissionTestServerlessCdkStackserverlessConstructhelloLambdaApi9278D75AGEThelloD7AAAB34",
+            "trace": [
+              "Function.addPermission (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:38:9)",
+              "LambdaIntegration.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:47:26)",
+              "new Method (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/method.js:37:40)",
+              "Resource.addMethod (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:24:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:104:14)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/helloLambdaApi/Default/hello/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructhelloLambdaApihelloGETECC1FAB0",
+            "trace": [
+              "new Method (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/method.js:53:26)",
+              "Resource.addMethod (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:24:16)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:104:14)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructsqsqueuefreightwiseE92E6D23",
+            "trace": [
+              "new Queue (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sqs/lib/queue.js:81:23)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:108:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructsqsqueuefreightwisePolicyF7A3F9A5",
+            "trace": [
+              "new QueuePolicy (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sqs/lib/policy.js:32:26)",
+              "Queue.addToResourcePolicy (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sqs/lib/queue-base.js:22:27)",
+              "SqsSubscription.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sns-subscriptions/lib/sqs.js:34:20)",
+              "Topic.addSubscription (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sns/lib/topic-base.js:20:49)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:115:15)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/sqs-queue-freightwise/ServerlessCdkStackserverlessConstructsnstopicfreightwise50FD9EAD/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructsqsqueuefreightwiseServerlessCdkStackserverlessConstructsnstopicfreightwise50FD9EADBD02ED48",
+            "trace": [
+              "new Subscription (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sns/lib/subscription.js:46:9)",
+              "Topic.addSubscription (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sns/lib/topic-base.js:31:9)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:115:15)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/sns-topic-freightwise/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructsnstopicfreightwise2603419C",
+            "trace": [
+              "new Topic (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-sns/lib/topic.js:35:26)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:114:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/snsTopicArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructsnsTopicArn415ED8BC",
+            "trace": [
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:117:9)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/serverlessConstruct/BotURL": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "serverlessConstructBotURL048BF628",
+            "trace": [
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:123:9)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/SsmParameterValue:--fw--manny--PGHOST:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValuefwmannyPGHOSTC96584B6F00A464EAD1953AFF4B05118Parameter",
+            "trace": [
+              "Function.fromStringParameterAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:154:15)",
+              "Function.valueForTypedStringParameter (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:224:21)",
+              "Function.valueForStringParameter (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:207:32)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:22:44)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/SsmParameterValue:--fw--manny--PGPASSWORD:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValuefwmannyPGPASSWORDC96584B6F00A464EAD1953AFF4B05118Parameter",
+            "trace": [
+              "Function.fromStringParameterAttributes (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:154:15)",
+              "Function.valueForTypedStringParameter (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:224:21)",
+              "Function.valueForStringParameter (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:207:32)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:26:48)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3BucketD477F252",
+            "trace": [
+              "new FileAssetParameters (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:167:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new LayerVersion (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/layers.js:43:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:65:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6S3VersionKey9EE22730",
+            "trace": [
+              "new FileAssetParameters (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:167:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new LayerVersion (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/layers.js:43:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:65:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/AssetParameters/9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters9c00029cc5c603c9d4eb0854221fd01369d719692e83c84559f5ae37725382c6ArtifactHash01312C83",
+            "trace": [
+              "new FileAssetParameters (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:167:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new LayerVersion (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/layers.js:43:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:65:23)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3Bucket2B420F76",
+            "trace": [
+              "new FileAssetParameters (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:167:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:72:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cS3VersionKeyBCE0DB92",
+            "trace": [
+              "new FileAssetParameters (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:167:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:72:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/AssetParameters/8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26c/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters8fff7b4b178d89743dd084f4cec3734743c81dc40e0f22f52f7274b73930a26cArtifactHash30967C59",
+            "trace": [
+              "new FileAssetParameters (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:167:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:90:43)",
+              "new Asset (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:39:44)",
+              "AssetCode.bind (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/code.js:206:26)",
+              "new Function (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new ServerlessConstruct (/Users/arul/Developer/FreightWise/serverless-cdk/lib/ServerlessConstruct.js:72:25)",
+              "new ServerlessCdkStack (/Users/arul/Developer/FreightWise/serverless-cdk/lib/serverless-cdk-stack.js:21:4)",
+              "Object.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/bin/serverless-cdk.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1068:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)",
+              "Module.load (internal/modules/cjs/loader.js:933:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:774:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stage.js:103:41)",
+              "process.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/app.js:53:51)",
+              "Object.onceWrapper (events.js:483:26)",
+              "process.emit (events.js:376:20)"
+            ]
+          }
+        ],
+        "/ServerlessCdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/stage.js:103:41)",
+              "process.<anonymous> (/Users/arul/Developer/FreightWise/serverless-cdk/node_modules/@aws-cdk/core/lib/app.js:53:51)",
+              "Object.onceWrapper (events.js:483:26)",
+              "process.emit (events.js:376:20)"
+            ]
+          }
+        ]
+      },
+      "displayName": "ServerlessCdkStack"
+    }
+  }
+}
